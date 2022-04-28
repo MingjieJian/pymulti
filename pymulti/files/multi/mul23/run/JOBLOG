@@ -1,0 +1,14 @@
+OPAC: ABUNDANCE FROM FILE ATOM=  1.00E+00
+ ABUNDANCE TAKEN FROM FILE ABUND WITH MOLECULES CONSIDERED
+ MIN AND MAX ABUNDANCE:    9.99E-01    1.00E+00
+FOLLOWING BACKGROUND ABSORBERS EXCLUDED:
+
+   KR  LOWER LEVEL           UPPER LEVEL
+   11  H BF N=1              H CONT              
+   12  H BF N=2              H CONT              
+   13  H BF N=3              H CONT              
+   14  H BF N=4              H CONT              
+   15  H BF N=5              H CONT              
+ NEGATIVE OPACITIES, KR=    9 IT=    1
+ NEGATIVE OPACITIES, KR=   10 IT=    1
+ NORMAL END

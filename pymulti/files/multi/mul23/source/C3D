@@ -1,0 +1,13 @@
+c
+c  xsave is saved x-array for transition krsave, frequency nusave
+c  l3d is true for _3d version, false for standard version
+c  l3d is set to true in mul23_bconst_3d.f and false in mul23_bconst.f
+c  mpmyid2 is mpi id
+c  ext2 is extension for out3d file
+c
+      parameter(mdep3d=10000)
+      logical l3d
+      common /c3d/xsave(mdep3d),krsave,nusave,l3d
+      integer mpmyid2
+      character*80 ext2
+      common /cmyid/ mpmyid2,ext2

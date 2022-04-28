@@ -1,0 +1,260 @@
+MULTI version 2.3  January 2015
+
+For a documentation of changes from version 1.0 to version 2.3, see file
+mul23.pdf.
+
+1. Files in distribution (directory source if not otherwise indicated):
+
+a) source files
+
+   mul23_g.f       mul23_l.f        main program for global/local operator
+   mul23_subg.f    mul23_subl.f     subroutines for global/local operator
+   mul23_bconst.f                   block data initialization, 
+                                    machine dependent constants
+   mul23_sub.f                      common subroutines
+   mul23_opacu.f                    opacity routines for uppsala package
+   mul23_writeidl.f                 IDL printout routines
+   mul23_writeidldbl.f              IDL printout routines,double precision
+
+In addition there are some files connected to a wrapper to make 3D calculations column by column.
+These routines contain "3d" in the names but are not yet fully tested.
+
+b) include files
+
+   PREC PREC.dp PARAM PARAMO PARAMW C3D CALIN CATMO2 CATMOS CATOM CATOM23
+   CBCNST CCNTRB CCONST CDW CERROR CFIX CGAUSI CGENCL CIMIN CINPUT CLGMX CLU 
+   CMPI COPCL COSM1 COSM2 COSM3 CSLINE CSPLN CTAUQQ CTERM CTRAN CX
+   CXJP OSMPAR
+
+c) utilities
+
+   make_mul23_dbl.csh             creates files in double precision
+                                  (from directory ../source to ../source_dp)
+   makefile                       makefile for executables
+   run/run.csh                    example of run script
+   idl/*.pro                      IDL procedures to treat output
+
+d) sample input and output files (in directory input):
+
+   absdat
+   abslin.mgb13
+   abslin.si23
+   abslin.sotbfi
+   absmet
+   abund
+   atmos.falc
+   atmos.holmul
+   atmos.t4500g4.50m0.00x1.0
+   atmos.t5000g4.50m0.00x1.0
+   atmos.t5500g4.50m0.00x1.0
+   atmos.t6000g2.00m0.00x1.0
+   atmos.t6000g2.50m0.00x1.0
+   atmos.t6000g3.00m0.00x1.0
+   atmos.t6000g3.50m0.00x1.0
+   atmos.t6000g4.00m0.00x1.0
+   atmos.t6000g4.50m-1.00x1.0
+   atmos.t6000g4.50m-2.00x1.0
+   atmos.t6000g4.50m-3.00x1.0
+   atmos.t6000g4.50m0.00x1.0
+   atmos.t6000g5.00m0.00x1.0
+   atmos.t6500g4.50m0.00x1.0
+   atmos.t7000g4.50m0.00x1.0
+   atmos.val3c
+   atom.ca6
+   atom.h6
+   atom.li12
+   atom.mg1-3f
+   atom.mgb13
+   atom.na12
+   atom.o21
+   atom.si23
+   atom.si238
+   atom.si23_init
+   atom.si29
+   atom.sotbfi
+   atom.sotbfi_init
+   atom.sotbfi_nq384
+   atom2.si23
+   atom2.si29
+   dscale.ca6_falc
+   dscale.ca6_val3c
+   dscale.falc
+   dscale.h6_val3c
+   dscale.holmul
+   dscale.li12_falc
+   dscale.mg1-3f_falc
+   dscale.mgb13_falc
+   dscale.na12_val3c
+   dscale.si23_falc
+   dscale.si23_init_falc
+   dscale.si29_val3c
+   dscale.sotbfi_falc
+   dscale.sotbfi_init_falc
+   dscale.sotbfi_nq384_falc
+   dscale.t4500g4.50m0.00x1.0
+   dscale.t5000g4.50m0.00x1.0
+   dscale.t5500g4.50m0.00x1.0
+   dscale.t6000g2.00m0.00x1.0
+   dscale.t6000g2.50m0.00x1.0
+   dscale.t6000g3.00m0.00x1.0
+   dscale.t6000g3.50m0.00x1.0
+   dscale.t6000g4.00m0.00x1.0
+   dscale.t6000g4.50m-1.00x1.0
+   dscale.t6000g4.50m-2.00x1.0
+   dscale.t6000g4.50m-3.00x1.0
+   dscale.t6000g4.50m0.00x1.0
+   dscale.t6000g5.00m0.00x1.0
+   dscale.t6500g4.50m0.00x1.0
+   dscale.t7000g4.50m0.00x1.0
+   dscale.val3c
+   input.ca6
+   input.h6
+   input.li12
+   input.mg1-3f
+   input.mgb13
+   input.na12
+   input.si23
+   input.si23_init
+   input.si29
+   input.sotbfi
+   input.sotbfi_init
+   input.sotbfi_nq384_init
+   input_3d.ca6
+   out.ca6_val3c
+
+e) documentation in subdirectory doc
+
+   README                         this text
+   multi_manual.pdf               quick start manual
+   mul23.pdf                      list of changes from version 1.0 to 2.3
+   mul23_exercises.pdf            a number of exercises
+   idldoc.pdf                     help text for some IDL procedures
+
+f) IDL routines in subdirectory idl
+
+   see multi_manual.pdf for a list
+
+Executables are called mul23abc.x where 
+   a  denotes operator type (g or l)
+   b  denotes opacity package (u)
+   c  denotes scratch file storage (s)
+We thus get the two combinations:
+   mul23gus.x mul23lus.x
+
+The Oslo opacity package is no longer supported.
+
+
+2. Unpacking of distribution
+
+   a) set working directory to wanted root directory. 
+   b) unpack tar file, directory mul23 and subdirectories
+      doc, input, run source, source_dp are created
+   c) set working directory to source
+   d) run script make_mul23_dbl.csh
+
+Single precision executables are made in diretory source, double
+precisions executables in directory source_dp. Note that only
+variables in include files and in the file mul23_opacu.f are allowed
+to have a variable type not conforming to FORTRAN implicit typing
+(variables beginning with letter I-N are type integer, other variables
+are real or real(8)). New routines and changes to old ones should
+conform to this convention.
+
+
+3. Sample run
+
+To make sample run:
+
+   set working directory to source_dp  (double precision version recommended)
+   make mul23gus.x                   make executable
+   cd ../run                         set working directory to run
+   ln -s ../source_dp/mul23gus.x .   symbolic link of executable to run (final . needed)
+                                     directory
+   ./run.csh ca6 val3c 23gus         run
+
+output can be compared with file input/out.ca6_val3c. Small differences will
+exist due to different floating point formats but EMAX values (grep
+EMAX out.ca6_val3c and grep EMAX ../input/out.ca6_val3c) should give values that are
+identical to a few decimal places.
+
+4. Machine dependencies
+
+Compile, link and compiler option commands differ from machine to
+machine.  These should be set through setting environment variables
+in the shell-script startup file in your home directory. For cshell 
+and derivatives the file is .cshrc and the following lines are
+appropriate for the ifort compiler:
+setenv FC ifort
+setenv LINK ifort
+setenv FOPT "-fast -fpe0"
+
+for bash-shell the following lines should be added to .bashrc:
+export FC=ifort
+export LINK=ifort
+export FOPT="-fast -fpe0"
+
+The large array W is passed as an argument. This may cause overflow of
+the stack on some machines. Compiling with a switch to store all local
+variables statically solves this problem.
+
+The routine ETIME can be used on many architectures to get timing
+information. Since this function does not exist on many other architectures,
+the call has been commented out from the function SECOND in mul23_sub.f.
+Uncomment the lines to obtain timing on machines where ETIME exist or
+replace the call with another CPU-time routine if timings are wanted.
+As the code is now, the timing returns zero to the TIME file.
+
+
+5. Recommendations for code conventions:
+
+Try to restrict changes to as few routines as possible.
+
+Do not change existing common blocks - rather add new ones specific
+to the new version.
+
+Stick to the implicit typing convention of FORTRAN. This makes it 
+much easier to have both a single precision and a double precision
+version of the code.
+
+Do not change existing code if that is not absolutely necessary. It is
+quite tempting to clean up the existing code by changing indentations,
+statement labels, variable names etc. The increased clarity that may
+result is not worth the incompatability with other versions around.
+By restricting changes to a minimum it is much easier to incorporate
+new features from other sources into any existing version.  Try not to
+change the format of existing input files. It is really frustrating
+to administer tons of input files if they have different formats. If
+new information is needed - introduce new input files instead.
+
+
+6. How to get the distribution
+
+The files are available from
+
+http://folk.uio.no/matsc/mul23
+
+you find the files
+
+README               this text
+ftsatlas.idlsave     FTS solar atlas (35 MB)
+report33.pdf	     Uppsala Astronomical Observatory report 33 describing version 1.0 (13 MB)
+mul23.pdf            documents changes from version 1.0 to 2.3
+multi_manual.pdf     quick start manual
+mul23.tar.gz         distribution in compressed form (6 MB)
+mul23.tar            distribution in uncompressed form (13 MB)
+
+The smaller documentation files (README and the mul*pdf files) are also included in the tar files.
+
+
+Mats Carlsson
+Institute of Theoretical Astrophysics
+P.O Box 1029 Blindern
+N-0315 Oslo 3
+Norway
+
+email: mats.carlsson@astro.uio.no
+phone: +47 22856536
+fax:   +47 22856505
+
+
+

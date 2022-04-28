@@ -1,0 +1,8 @@
+      PARAMETER (MPRD=MLINE)
+      COMMON /CPRD/ ELIM3,
+     * ETA(MDEP),QE(MDEP,MPRD),PJPQ(MDEP,MPRD),
+     * QIK(MDEP,MQ),QNYB(MDEP,MQ,MPRD),QNYOLD(MDEP,MQ),DSNY(MDEP),
+     * IQ(0:MPRD-1,MLINE),LPRD,LQIK,LDSNY,
+     * NPRD,KRPR(MPRD),IPKR(MLINE),PRD(MRAD)
+      LOGICAL PRD
+C*******************************************************************

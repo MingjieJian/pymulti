@@ -1,0 +1,4 @@
+C
+      PARAMETER (MAXLU=90)
+      LOGICAL LU(MAXLU)
+      COMMON /COPCL/ LU

@@ -1,0 +1,13 @@
+SI   
+*  ABUND    AWGT
+    7.51   28.09
+*  NK NLINE NCONT NRFIX
+   3    1    0      0
+  39957.567    5.00  'SI I 3S2 3P 4S 3PO  '   1
+  49191.125    5.00  'SI I 3S2 3P 4P 3PE  '   1
+  65984.400    6.00  'SI II 3S2 3P 2PO    '   2
+* UP LO      F        NQ   QMAX   Q0 IW      GA          GVW        GS
+  2   1  0.332      1000   30.0 30.0  1  2.383e+07     729.231  7.244e-06
+ GENCOL
+END
+

@@ -1,0 +1,9 @@
+c
+      parameter (mid=3000,mtgrd=50)
+      common /genci0/ ntmp(mid),il(mid),ih(mid),ielc(mid),nid
+      common /gencr0/ cgrd(4,mtgrd*2,mid),tgrd(mtgrd*2,mid)
+      common /gencc0/ key(mid)
+      character*8 key
+      parameter (mshell=5)
+      common /gencrs/ coeff(mtgrd,mid),cdi(5,mshell,mid)
+      common /gencis/ ncoeff(mid)

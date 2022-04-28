@@ -1,0 +1,6 @@
+c
+      include 'mpif.h'
+      integer masterid,mpmyid,mpnproc,mperr,nx,ny
+      parameter (masterid=0)
+      logical master, slave
+      character*80 dscopt,ext

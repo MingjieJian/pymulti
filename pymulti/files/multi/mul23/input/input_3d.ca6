@@ -1,0 +1,7 @@
+0   3           icont_opt (=-1 means fill in out3d, otherwise 0), iredo_max (=3 is normal with crsw)
+'dtrho'         dscopt (orig, dtrho or dscal2)
+1 235 20        ix0,ix1,ixstep
+1 235 20        iy0,iy1,iystep
+0 51            krsave, nusave if(krsave.lt.0) you give nrad_write and kr for transitions you want printout
+  1             nruns
+'t246.6'

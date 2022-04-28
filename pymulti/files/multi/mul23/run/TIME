@@ -1,0 +1,305 @@
+     INJON    CPU=   0.001 S
+     INABS    CPU=   0.003 S
+     INLIN    CPU=   0.000 S
+     OPAC     CPU=   0.099 S
+
+    INPUT     CPU=   0.105 S
+
+     VOIGT    CPU=   0.002 S
+     TRPT     CPU=   0.024 S
+     TRPT     CPU=   0.023 S
+     INITIA   CPU=   0.000 S
+
+   START      CPU=   0.154 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.036 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.036 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.034 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.034 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.034 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.034 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.034 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+     ZERO W   CPU=   0.000 S
+     BMATTR   CPU=   0.035 S
+     NORM     CPU=   0.000 S
+     WCOLL    CPU=   0.000 S
+     ERCOLL   CPU=   0.000 S
+     ENEQ     CPU=   0.000 S
+
+    ITER      CPU=   0.035 S
+
+
+   SUM IT     CPU=   1.080 S
+
+     TRPT     CPU=   0.052 S
+     TRCONT   CPU=   0.001 S
+     CNTRB    CPU=   0.021 S
+
+   FORMAL     CPU=   0.079 S
+
+
+ TOTAL        CPU=   1.313 S
+

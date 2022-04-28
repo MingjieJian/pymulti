@@ -1,0 +1,2 @@
+      integer MPI_COMM_WORLD, MPI_REAL, MPI_INTEGER, MPI_STATUS_SIZE
+      parameter (MPI_STATUS_SIZE=1)

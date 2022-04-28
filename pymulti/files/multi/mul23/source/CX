@@ -1,0 +1,4 @@
+C
+      COMMON /CX/ QX(MDEP,MQ,MPRD,MPRD),QXOLD(MDEP,MQ,MPRD),
+     * NXD(MLINE),KXD(MPRD,MLINE),NXU(MPRD),KXU(MPRD,MPRD)
+C*************************************************************
